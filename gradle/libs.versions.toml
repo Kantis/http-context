@@ -1,10 +1,12 @@
 [versions]
 kotest = "5.6.0"
+http4k = "4.41.4.0"
 
 
 [libraries]
 kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
 kotest-property = { module = "io.kotest:kotest-property", version.ref = "kotest" }
+http4k-core = { module = "org.http4k:http4k-core", version.ref = "http4k" }
 
 
 [bundles]

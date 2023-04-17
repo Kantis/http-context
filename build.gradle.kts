@@ -12,6 +12,7 @@ repositories {
 }
 
 dependencies {
+    implementation(libs.http4k.core)
     testImplementation(libs.kotest.runner.junit5)
     testImplementation(libs.kotest.property)
 }
